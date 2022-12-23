@@ -42,6 +42,7 @@ const createPost = () => {
 const postElm = document.querySelector('.posts-list')
 
 let postInfo = '';
+isLiked = false;
 
 postElm.innerHTML = createPost();
 const likeBtn = document.querySelectorAll('button') // Array with all the like buttons
@@ -49,6 +50,6 @@ console.log(likeBtn);
 
 likeBtn.forEach(button => {
     button.addEventListener('click', event => {
-      console.log('test');
+        button.classList.toggle('like-button--liked');
     });
   });
