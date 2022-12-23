@@ -40,7 +40,15 @@ const createPost = () => {
 
 //* DOMS ELEMENT
 const postElm = document.querySelector('.posts-list')
+
 let postInfo = '';
 
-
 postElm.innerHTML = createPost();
+const likeBtn = document.querySelectorAll('button') // Array with all the like buttons
+console.log(likeBtn);
+
+likeBtn.forEach(button => {
+    button.addEventListener('click', event => {
+      console.log('test');
+    });
+  });

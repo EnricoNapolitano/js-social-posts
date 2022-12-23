@@ -12,7 +12,7 @@ const postsData = [
         id: '2',
         name: 'Paolo Bonolis',
         photo: 'img/bonolis.jpeg',
-        date: '12-06-2022',
+        date: '09-31-2022',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quidem maiores doloremque ad ducimus minus rerum quos',
         picture: 'https://picsum.photos/300/200?random=2',
         likes: '85'
@@ -21,7 +21,7 @@ const postsData = [
         id: '3',
         name: 'Madame Curie',
         photo: 'img/curie.jpg',
-        date: '12-06-2022',
+        date: '06-10-2022',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quidem maiores doloremque ad ducimus minus rerum quos',
         picture: 'https://picsum.photos/300/200?random=3',
         likes: '78'
@@ -30,7 +30,7 @@ const postsData = [
         id: '4',
         name: 'Margherita Hack',
         photo: 'img/hack.jpg',
-        date: '12-06-2022',
+        date: '05-11-2022',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quidem maiores doloremque ad ducimus minus rerum quos',
         picture: 'https://picsum.photos/300/200?random=4',
         likes: '120'
